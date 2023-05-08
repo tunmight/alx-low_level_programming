@@ -1,4 +1,7 @@
-#include "holberton.h"
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 /**
  * create_file - creates a file and writes text content to it
